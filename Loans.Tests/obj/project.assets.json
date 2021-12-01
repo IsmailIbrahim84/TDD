@@ -876,6 +876,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Loans/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Loans.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Loans.dll": {}
+        }
       }
     }
   },
@@ -3763,10 +3773,16 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Loans/1.0.0": {
+      "type": "project",
+      "path": "../Loans/Loans.csproj",
+      "msbuildProject": "../Loans/Loans.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Loans >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.1.0-preview-20211130-02",
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 4.1.0"
@@ -3802,7 +3818,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Learning\\nunit-3-dotnet-testing-introduction\\git_code\\Loans\\Loans.csproj": {
+              "projectPath": "D:\\Learning\\nunit-3-dotnet-testing-introduction\\git_code\\Loans\\Loans.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

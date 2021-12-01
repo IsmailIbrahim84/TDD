@@ -1,0 +1,9 @@
+D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\bin\Debug\netcoreapp2.1\Loans.deps.json
+D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\bin\Debug\netcoreapp2.1\Loans.dll
+D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\bin\Debug\netcoreapp2.1\Loans.pdb
+D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\obj\Debug\netcoreapp2.1\Loans.csproj.AssemblyReference.cache
+D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\obj\Debug\netcoreapp2.1\Loans.AssemblyInfoInputs.cache
+D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\obj\Debug\netcoreapp2.1\Loans.AssemblyInfo.cs
+D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\obj\Debug\netcoreapp2.1\Loans.csproj.CoreCompileInputs.cache
+D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\obj\Debug\netcoreapp2.1\Loans.dll
+D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\obj\Debug\netcoreapp2.1\Loans.pdb
