@@ -7,3 +7,4 @@ D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\obj\Debug\netcore
 D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\obj\Debug\netcoreapp2.1\Loans.csproj.CoreCompileInputs.cache
 D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\obj\Debug\netcoreapp2.1\Loans.dll
 D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\obj\Debug\netcoreapp2.1\Loans.pdb
+D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans\obj\Debug\netcoreapp2.1\Loans.GeneratedMSBuildEditorConfig.editorconfig
