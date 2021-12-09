@@ -81,5 +81,26 @@ namespace Loans.Tests
 
             Assert.That(comparison, Has.Exactly(3).Items);
         }
+
+    
+    [Test]
+    public void ReturnComparsionsForFirstProduct()
+        {
+            var products = new List<LoanProduct>
+            {
+                new LoanProduct(1,"a",1),
+                new LoanProduct(2,"b",2),
+                new LoanProduct(3,"c",3)
+            };
+
+            var sut = new ProductComparer(new LoanAmount("USD", 200_000m), products);
+
+            List<MonthlyRepaymentComparison> comparison = sut.CompareMonthlyRepayments(new LoanTerm(30));
+
+            var expectedProduct = new MonthlyRepaymentComparison("a", 1, 643.28m);
+
+            Assert.That(comparison, Does.Contain(expectedProduct));
+        }
     }
+
 }
