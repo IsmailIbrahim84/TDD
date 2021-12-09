@@ -64,5 +64,22 @@ namespace Loans.Tests
             var a = 1.0 / 3.0;
             Assert.That(a,Is.EqualTo(0.33).Within(0.004));
         }
+
+        [Test]
+        public void ReturnCorrectNumberOfComparsions()
+        {
+            var products = new List<LoanProduct>
+            {
+                new LoanProduct(1,"a",1),
+                new LoanProduct(2,"b",2),
+                new LoanProduct(3,"c",3)
+            };
+
+            var sut = new ProductComparer(new LoanAmount("USD", 200_000m), products);
+
+            List<MonthlyRepaymentComparison> comparison = sut.CompareMonthlyRepayments(new LoanTerm(30));
+
+            Assert.That(comparison, Has.Exactly(3).Items);
+        }
     }
 }
