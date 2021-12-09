@@ -58,6 +58,11 @@ namespace Loans.Tests
             Assert.That(z,Is.Not.SameAs(x));
         }
 
-
+        [Test]
+        public void Double()
+        {
+            var a = 1.0 / 3.0;
+            Assert.That(a,Is.EqualTo(0.33).Within(0.004));
+        }
     }
 }
