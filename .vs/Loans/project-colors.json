@@ -5,7 +5,12 @@
       "ProjectGuid": "839e7c04-fde3-4f2b-a760-336cb48235e9",
       "DisplayName": "Loans.Tests",
       "ColorIndex": 0
+    },
+    "0d3bf21b-51f5-4a43-ac06-66f5031ba5a1": {
+      "ProjectGuid": "0d3bf21b-51f5-4a43-ac06-66f5031ba5a1",
+      "DisplayName": "Loans",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

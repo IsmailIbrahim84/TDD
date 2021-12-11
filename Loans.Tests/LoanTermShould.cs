@@ -81,10 +81,9 @@ namespace Loans.Tests
 
             Assert.That(comparison, Has.Exactly(3).Items);
         }
-
     
-    [Test]
-    public void ReturnComparsionsForFirstProduct()
+        [Test]
+        public void ReturnComparsionsForFirstProduct()
         {
             var products = new List<LoanProduct>
             {
@@ -99,7 +98,9 @@ namespace Loans.Tests
 
             var expectedProduct = new MonthlyRepaymentComparison("a", 1, 643.28m);
 
-            Assert.That(comparison, Does.Contain(expectedProduct));
+           // Assert.That(comparison, Does.Contain(expectedProduct));
+
+           Assert.That(comparison, Has.Exactly(1).Property("ProductName").EqualTo("a"));
         }
     }
 
