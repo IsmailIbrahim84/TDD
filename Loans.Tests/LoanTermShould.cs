@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Loans.Domain.Applications;
 using NUnit.Framework;
 
@@ -101,6 +102,13 @@ namespace Loans.Tests
            // Assert.That(comparison, Does.Contain(expectedProduct));
 
            Assert.That(comparison, Has.Exactly(1).Property("ProductName").EqualTo("a"));
+        }
+
+        [Test]
+        public void NotAllowedZero()
+        {
+            //Make sure that the application through out of exception error
+            Assert.That( () => new LoanTerm(0), Throws.TypeOf<ArgumentOutOfRangeException>() );
         }
     }
 
