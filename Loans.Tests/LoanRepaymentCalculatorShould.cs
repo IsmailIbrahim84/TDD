@@ -47,5 +47,16 @@ namespace Loans.Tests
                 new LoanTerm(termInYears));
 
         }
+
+        [Test]
+        [TestCaseSource(typeof(MonthlyRepaymentTestData),"TestCases")]
+        public decimal CalculateCorrectMonthlyRepayment_Centralized(decimal principal, decimal interestRate,
+            int termInYears)
+        {
+            var _sut = new LoanRepaymentCalculator();
+            return _sut.CalculateMonthlyRepayment(new LoanAmount("USD", principal), interestRate,
+                new LoanTerm(termInYears));
+
+        }
     }
 }
