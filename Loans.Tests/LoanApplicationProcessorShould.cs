@@ -64,6 +64,26 @@ namespace Loans.Tests
 
         }
 
+        [Test]
+        public void NullReturnExample()
+        {
+            var mock = new Mock<INullExample>();
+
+            mock.Setup(x=>x.SomeMethod()).Returns<string>(null);
+
+            var mockReturnValue = mock.Object.SomeMethod();
+
+            Assert.That(mockReturnValue, Is.Null);
+        }
+    }
+
+
+    public interface INullExample
+    {
+        string SomeMethod();
     }
 
     }
+
+
+    
