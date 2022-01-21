@@ -47,7 +47,12 @@ namespace Loans.Tests
 
             var mocIdentityVerifier = new Mock<IIdentityVerifier>();
 
-            mocIdentityVerifier.Setup(x => x.Validate("Sarah", 25,  "133 Pluralsight Drive, Draper, Utah")).Returns(true);
+            //mocIdentityVerifier.Setup(x => x.Validate("Sarah", 25,  "133 Pluralsight Drive, Draper, Utah")).Returns(true);
+
+            var isValidOutValue = true;
+
+            mocIdentityVerifier.Setup(x =>
+                x.Validate("Sarah", 25, "133 Pluralsight Drive, Draper, Utah", out isValidOutValue));
 
             var mocCreditScore = new Mock<ICreditScorer>();
             
