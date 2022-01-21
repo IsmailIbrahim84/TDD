@@ -98,3 +98,5 @@ D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans.Tests\obj\Debug\n
 D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans.Tests\obj\Debug\netcoreapp3.1\Loans.Tests.pdb
 D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans.Tests\obj\Debug\netcoreapp3.1\Loans.Tests.genruntimeconfig.cache
 D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans.Tests\obj\Debug\netcoreapp3.1\Loans.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans.Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Learning\nunit-3-dotnet-testing-introduction\git_code\Loans.Tests\bin\Debug\netcoreapp3.1\Moq.dll
